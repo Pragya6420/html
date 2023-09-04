@@ -1,0 +1,94 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.homepage{
+  text-align: center;
+}
+h1{
+    font-family: cursive;
+    font-size: 40px;
+}
+.homepage > h3{
+    font-weight: lighter;
+    font-size: 20px;
+}
+h3{
+    text-align: center;
+    font-size: 30px;
+}
+.aboutme{
+    height: 300px;
+    padding: 10px;
+    font-size: 25px;
+    margin: 10px;
+    text-align: center;
+}
+.skills > .images{
+height: 100px;
+width: 100%;
+margin-bottom: 20px;
+}
+.images   {
+ display: inline-flex;
+}
+.CTA{
+    text-align: center;
+    margin: 20px;
+}
+.plan-button{
+    background-color: rgba(236, 77, 91, 0.765);
+    border: none;
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 5px;
+    display: inline-block;
+    width: 170px;
+    margin-top: 20px;
+    text-decoration: none;
+}
+.footer{
+   padding: 70px;
+   width: 100%;
+   background-color: rgba(230, 131, 139, 0.765);
+   text-align: center;
+   margin: 20px;
+}
+a{
+   text-decoration: none;
+}
+hr{
+    border: dotted #b0b0b0 4px;
+    border-bottom: none;
+    width: 50%;
+    margin-top: 50px;
+   
+}
+      @media (min-width: 319px) and (max-width: 480px) {
+        body {
+        background-color: #e69070;
+        }
+      }
+   
+      @media (min-width: 481px) and (max-width: 1200px) {
+        body {
+          background-color: #d5b8ac;
+        }
+      }
+  
+      @media (min-width: 1201px) and (max-width: 1600px) {
+        body {
+          background-color: #fdddcf;
+        }
+      }
+  
+      @media (min-width: 1601px) {
+        body {
+          background-color: #6b342d;
+        }
+      } 
